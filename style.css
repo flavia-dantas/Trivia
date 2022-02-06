@@ -1,0 +1,46 @@
+body {
+  font-family: verdana, sans-serif;
+  background-color: #ffff9e;
+  
+}
+header{
+  text-align: center
+}
+.logoTrivia {
+  width: 50%; //largura
+  
+  }
+
+.container{
+  width: 800px; 
+	margin: auto;
+}
+
+
+.nome{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.perguntas{
+  font-size: 15px;
+}
+
+.btnResponder{
+  font-family: verdana, sans-serif;
+  background-color: #faa609;
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: none;
+  margin: 15px; // margem topo
+ 
+  
+}
+.btnResponder:hover{
+  font-family: verdana, sans-serif;
+  background-color:#ffdd19 ;
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: none;
+  margin: 15px; // margem topo
+}

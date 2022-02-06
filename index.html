@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIVIA - Laboratória </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <header>
+          <img src="\img\logo.png" class="logoTrivia">
+            
+            <div>
+          <p id="nome" class="nome"></p>
+        </div>
+            <p>Você gosta de filmes? Vamos testar seus conhecimentos!</p>
+        </header>
+        
+        <section>
+            
+            <form name="formularioQuiz" onsubmit="return verificarRespostas()">
+
+                <h3 class="perguntas">1- De que país era o Titanic?</h3>
+                <input type="radio" name="pergunta1" value="Inglaterra">Inglaterra</br>
+                <input type="radio" name="pergunta1" value="Estados Unidos">Estados Unidos</br>
+                <input type="radio" name="pergunta1" value="Alemanha">Alemanha</br>
+
+                <h3 class="perguntas">2- Em "Star Wars Uma Nova Esperança", a princesa Leia procura por um grande cavaleiro Jedi, quem é
+                    ele?</h3>
+                <input type="radio" name="pergunta2" value="Yoda">Yoda</br>
+                <input type="radio" name="pergunta2" value="Obi-Wan Kenobi">Obi-Wan Kenobi</br>
+                <input type="radio" name="pergunta2" value="Mace Windu">Mace Windu</br>
+
+
+                <h3 class="perguntas">3- Em “Vingadores”, após conseguir todas as Joias, quem estala os dedos e traz todos de volta?</h3>
+                <input type="radio" name="pergunta3" value="Capitão América">Capitão América</br>
+                <input type="radio" name="pergunta3" value="Hulk">Hulk</br>
+                <input type="radio" name="pergunta3" value="Tony Stark">Tony Stark</br>
+
+
+                <h3 class="perguntas">4- Em “Senhor dos Anéis”, quantos membros fazem parte da Sociedade do Anel?</h3>
+                <input type="radio" name="pergunta4" value="7">7</br>
+                <input type="radio" name="pergunta4" value="12">12</br>
+                <input type="radio" name="pergunta4" value="9">9</br>
+
+                <h3 class="perguntas">5- Que feitiço Harry Potter usou para matar Lord Voldemort?</h3>
+                <input type="radio" name="pergunta5" value="Expectro Patronum">Expectro Patronum</br>
+                <input type="radio" name="pergunta5" value="Expelliarmus">Expelliarmus</br>
+                <input type="radio" name="pergunta5" value="Petrificus Totalus">Petrificus Totalus</br>
+
+                <button class="btnResponder" type="submit">Responder</button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
